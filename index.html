@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gabriel Cermeño Yance | Portafolio</title>
+  <meta name="description" content="Portafolio de Gabriel Cermeño Yance: análisis de datos, diseño web y herramientas." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <!-- HEADER -->
+  <header class="header" id="top">
+    <div class="container header__row">
+      <a class="brand" href="#top" aria-label="Ir al inicio">
+        <span class="brand__logo" aria-hidden="true">G</span>
+        <span class="brand__text">
+          <strong>GABRIEL</strong>
+          <span class="brand__tag">PORTAFOLIO</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+
+      <nav class="nav" aria-label="Navegación principal">
+        <a class="nav__link" href="#sobre-mi">Sobre mí</a>
+        <a class="nav__link" href="#trayectoria">Trayectoria</a>
+        <a class="nav__link" href="#metodo">Mi método</a>
+        <a class="nav__link" href="#proyectos">Proyectos</a>
+        <a class="nav__link" href="#cv">Mi CV</a>
+        <a class="nav__link" href="#contacto">Contacto</a>
+
+        <button class="btn btn--header" id="langThemeBtn" type="button">
+          Idioma / Tema
+        </button>
+      </nav>
+    </div>
+
+    <!-- Menú móvil -->
+    <div class="nav-drawer" data-drawer>
+      <a class="nav-drawer__link" href="#sobre-mi">Sobre mí</a>
+      <a class="nav-drawer__link" href="#trayectoria">Trayectoria</a>
+      <a class="nav-drawer__link" href="#metodo">Mi método</a>
+      <a class="nav-drawer__link" href="#proyectos">Proyectos</a>
+      <a class="nav-drawer__link" href="#cv">Mi CV</a>
+      <a class="nav-drawer__link" href="#contacto">Contacto</a>
+      <a class="nav-drawer__cta" href="#contacto">Contáctame</a>
+
+      <button class="nav-drawer__btn" id="langThemeBtnMobile" type="button">
+        Idioma / Tema
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="inicio" aria-label="Sección principal">
+      <div class="hero__bg" aria-hidden="true"></div>
+
+      <div class="container hero__grid">
+        <div class="hero__left">
+          <p class="kicker">Lima, Perú · 20 años</p>
+
+          <h1 class="hero__title">
+            Hola, soy
+            <span class="hero__title-highlight">Gabriel Cermeño Yance</span>
+          </h1>
+
+          <p class="hero__text">
+            Estudiante de 7mo ciclo de Ingeniería de Sistemas en la UPC con enfoque en <strong>análisis de datos</strong> y
+            <strong>diseño web</strong>. Me gusta lo medible: datos limpios, decisiones claras y entregables ordenados.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--secondary" href="#cv">Descargar CV</a>
+            <a class="btn btn--ghost" href="#contacto">Contáctame</a>
+          </div>
+        </div>
+
+        <div class="hero__right" aria-label="Foto (placeholder)">
+          <div class="portrait">
+            <div class="portrait__circle"></div>
+            <div class="portrait__card">
+              <img class="portrait__face"
+                src="assets/img/Foto de perfil.png"
+                alt="Gabriel Cermeño Yance sonriendo">
+              <p class="portrait__name">Gabriel Cermeño Yance</p>
+              <p class="portrait__role">Data Analytics · Web</p>
+            </div>
+          </div>
+
+        <div class="portrait__links">
+            <a href="mailto:gabrielcy1405@gmail.com"
+                class="icon-btn"
+                aria-label="Enviar correo">
+                <img src="assets/icons/gmail.png" alt="" />
+            </a>
+
+            <a href="https://github.com/tu-usuario"
+                class="icon-btn"
+                aria-label="Ver GitHub"
+                target="_blank" rel="noopener">
+                <img src="assets/icons/github.png" alt="" />
+            </a>
+
+            <a href="https://www.linkedin.com/in/gabriel-cerme%C3%B1o-yance-11ab15258"
+                class="icon-btn"
+                aria-label="Ver LinkedIn"
+                target="_blank" rel="noopener">
+                <img src="assets/icons/linkedin.png" alt="" />
+            </a>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section class="section" id="sobre-mi">
+      <div class="container section__grid">
+        <div class="bio-left">
+          <p class="section__label">Sobre mí</p>
+          <h2 class="section__title">
+            Ingeniería de Sistemas + análisis de datos
+            <span class="accent">con diseño web</span>.
+          </h2>
+        </div>
+
+        <div class="bio-right">
+          <ul class="checklist">
+            <li>
+              <span class="checklist__icon" aria-hidden="true">✔</span>
+              <div>
+                <strong>Enfoque:</strong> análisis de datos (limpieza, análisis y visualización) usando Excel, SQL y Python.
+              </div>
+            </li>
+            <li>
+              <span class="checklist__icon" aria-hidden="true">✔</span>
+              <div>
+                <strong>Base complementaria:</strong> diseño web para presentar información con claridad (HTML/CSS + JS básico).
+              </div>
+            </li>
+            <li>
+              <span class="checklist__icon" aria-hidden="true">✔</span>
+              <div>
+                <strong>Idiomas:</strong> Español (nativo) · Inglés (B2+).
+              </div>
+            </li>
+          </ul>
+
+          <a class="btn btn--secondary" href="#metodo">Ver cómo trabajo →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRAYECTORIA -->
+    <section class="section section--tight" id="trayectoria">
+      <div class="container">
+        <header class="section-head center">
+          <h2 class="section__title">Trayectoria</h2>
+          <p class="section__subtitle">Línea de tiempo</p>
+        </header>
+
+        <div class="timeline">
+          <div class="timeline__line" aria-hidden="true"></div>
+
+          <article class="t-item">
+            <div class="t-item__dot" aria-hidden="true"></div>
+            <div class="t-item__card">
+              <p class="t-item__date">2012 – 2022</p>
+              <h3 class="t-item__title">Colegio Reina del Mundo (La Molina)</h3>
+              <p class="t-item__text">Promo 2022. Base académica.</p>
+            </div>
+          </article>
+
+          <article class="t-item">
+            <div class="t-item__dot" aria-hidden="true"></div>
+            <div class="t-item__card">
+              <p class="t-item__date">2023 – Actualidad</p>
+              <h3 class="t-item__title">Universidad Peruana de Ciencias Aplicadas (UPC)</h3>
+              <p class="t-item__text">Ingeniería de Sistemas de Información · 7mo ciclo.</p>
+            </div>
+          </article>
+
+          <article class="t-item">
+            <div class="t-item__dot" aria-hidden="true"></div>
+            <div class="t-item__card">
+              <p class="t-item__date">Ahora</p>
+              <h3 class="t-item__title">Objetivo</h3>
+              <p class="t-item__text">Prácticas como Analista de Datos / Diseñador Web.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- MI MÉTODO -->
+    <section class="section section--gradient" id="metodo">
+      <div class="container">
+        <header class="section-head center section-head--light">
+          <h2 class="section__title section__title--light">Mi método de trabajo</h2>
+          <p class="section__subtitle section__subtitle--light">
+            Cuatro pilares: <span class="accent">equipo</span>, comunicación, organización y racionalidad.
+          </p>
+        </header>
+
+        <div class="cards-4">
+          <article class="focus-card">
+            <div class="focus-card__top">
+              <div class="focus-card__icon" aria-hidden="true">🤝</div>
+              <div class="focus-card__tag">Pilar 1</div>
+            </div>
+            <h3 class="focus-card__title">Trabajo en equipo</h3>
+            <p class="focus-card__text">
+              Me integro rápido, documento acuerdos y priorizo que el equipo avance con claridad.
+            </p>
+          </article>
+
+          <article class="focus-card">
+            <div class="focus-card__top">
+              <div class="focus-card__icon" aria-hidden="true">📣</div>
+              <div class="focus-card__tag">Pilar 2</div>
+            </div>
+            <h3 class="focus-card__title">Comunicación constante</h3>
+            <p class="focus-card__text">
+              Estado, riesgos y próximos pasos. Llegando a la linea de la sobrecomunicacion.
+            </p>
+          </article>
+
+          <article class="focus-card">
+            <div class="focus-card__top">
+              <div class="focus-card__icon" aria-hidden="true">🧠</div>
+              <div class="focus-card__tag">Pilar 3</div>
+            </div>
+            <h3 class="focus-card__title">Organización máxima</h3>
+            <p class="focus-card__text">
+              Notion para estructura, checklists y trazabilidad. Orden = velocidad y menos presion.
+            </p>
+          </article>
+
+          <article class="focus-card focus-card--accent">
+            <div class="focus-card__top">
+              <div class="focus-card__icon" aria-hidden="true">📌</div>
+              <div class="focus-card__tag">Pilar 4</div>
+            </div>
+            <h3 class="focus-card__title">Decisiones racionales</h3>
+            <p class="focus-card__text">
+              Priorizo por impacto y evidencia. Si no se mide, es opinión (Vivan los datos).
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="proyectos">
+      <div class="container">
+        <header class="section-head">
+          <div>
+            <h2 class="section__title">Mis proyectos</h2>
+            <p class="section__subtitle">Aquí irán mis casos de análisis y diseño web <span class="accent">EN PROGRESO</span></p>
+          </div>
+          <a class="btn btn--secondary" href="#contacto">¿Tienes un proyecto? Hablemos</a>
+        </header>
+
+        <div class="blog-grid">
+          <article class="project-card">
+            <div class="project-card__media"></div>
+            <h3>AnaliJobs (Proximamente)</h3>
+            <p>Mi propia pagina web donde se publican automaticamente ofertas de trabajo y datos de valor respecto a trabajos para ingenieros de sistemas</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__media"></div>
+            <h3>-----</h3>
+            <p>-------</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__media"></div>
+            <h3>------</h3>
+            <p>--------</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--gradient" id="cv">
+      <div class="container">
+        <header class="section-head center section-head--light">
+          <h2 class="section__title section__title--light">Mi CV</h2>
+          <p class="section__subtitle section__subtitle--light">Descarga y revisa mis habilidades técnicas + blandas</p>
+          <a class="btn btn--outline" href="assets/archivos/cv.pdf" download>Descargar CV (PDF)</a>
+        </header>
+
+        <div class="skills-grid">
+          <section class="skill-card">
+            <h3>📊 Análisis de Datos</h3>
+            <ul>
+              <li>Excel (reportes, tablas dinámicas, automatización)</li>
+              <li>SQL Server (consulta, análisis, validación)</li>
+              <li>Python (limpieza, transformación, análisis)</li>
+            </ul>
+          </section>
+
+          <section class="skill-card">
+            <h3>📉 Visualización & Diseño</h3>
+            <ul>
+              <li>Power BI (dashboards e indicadores)</li>
+              <li>Figma (prototipado de interfaces)</li>
+            </ul>
+          </section>
+
+          <section class="skill-card">
+            <h3>🧪 Testing & Calidad</h3>
+            <ul>
+              <li>JMeter (pruebas de rendimiento y carga)</li>
+              <li>Selenium (pruebas funcionales)</li>
+              <li>MantisBT (gestión de incidencias)</li>
+            </ul>
+          </section>
+
+          <section class="skill-card">
+            <h3>💻 Desarrollo Web</h3>
+            <ul>
+              <li>HTML, CSS y Tailwind (maquetación)</li>
+              <li>JavaScript (en proceso)</li>
+              <li>C# y .NET</li>
+              <li>C++ (nivel académico)</li>
+            </ul>
+          </section>
+
+          <section class="skill-card">
+            <h3>🎓 Certificaciones</h3>
+            <ul>
+              <li>Using Databases with Python – University of Michigan</li>
+              <li>Foundations of Data Science: K-Means – University of London</li>
+              <li>Python for Everybody – University of Michigan</li>
+              <li>Excel Skills for Business – Intermediate II – Macquarie University</li>
+            </ul>
+          </section>
+
+          <section class="skill-card">
+            <h3>🧠 Habilidades personales</h3>
+            <ul>
+              <li>Organización (Notion)</li>
+              <li>Aprendizaje rápido</li>
+              <li>Alta capacidad analítica</li>
+              <li>Comunicación clara</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section" id="contacto">
+      <div class="container">
+        <h2 class="split__title">Contáctame</h2>
+        <p class="muted" style="margin-top:-8px;">
+          Si quieres colaborar, contratar o simplemente preguntar algo, escríbeme.
+        </p>
+
+        <form class="form" id="joinForm">
+          <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" />
+
+          <label>
+            <span>Nombre</span>
+            <input type="text" name="name" required minlength="2" placeholder="Tu nombre" />
+          </label>
+
+          <label>
+            <span>Correo</span>
+            <input type="email" name="email" required placeholder="tu@correo.com" />
+          </label>
+
+          <label>
+            <span>Teléfono</span>
+            <input type="tel" name="phone" required placeholder="+51 999 999 999" />
+          </label>
+
+          <button class="btn btn--secondary" type="submit">Enviar</button>
+          <p class="form__note" id="formMsg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__row">
+      <p>© <span id="year"></span> Gabriel Cermeño Yance</p>
+
+      <div class="footer__links">
+        <a href="mailto:gabrielcy1405@gmail.com">gabrielcy1405@gmail.com</a>
+        <a href="tel:+51968617324">+51 968 617 324</a>
+        <a href="https://www.linkedin.com/in/gabriel-cerme%C3%B1o-yance-11ab15258" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="#" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- PANEL LATERAL -->
+  <aside class="side-panel" id="sidePanel">
+    <div class="side-panel__content">
+      <h3>Preferencias</h3>
+
+      <button id="btnEnglish" type="button">English</button>
+      <button id="btnSpanish" type="button">Español</button>
+
+      <hr>
+
+      <button id="btnTheme" type="button">Cambiar claro / oscuro</button>
+    </div>
+  </aside>
+
+  <script src="js/main.js"></script>
+  <script src="js/form.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
